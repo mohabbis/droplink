@@ -1,0 +1,20 @@
+{
+  // Server, shared protocol, and Vercel function code (Node ESM).
+  "compilerOptions": {
+    "target": "ES2023",
+    "lib": ["ES2023"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["node"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "rootDir": "."
+  },
+  "include": ["server", "shared", "api"],
+  "exclude": ["**/*.test.ts"]
+}
